@@ -1,0 +1,4 @@
+MainPackage=C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\bin\Release\App1_1.1.0.3_AnyCPU.appx
+SymbolPackage=C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\AppPackages\App1_1.1.0.3_Test\App1_1.1.0.3_AnyCPU.appxsym
+ResourcePack=C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\bin\Release\App1_1.1.0.3_scale-140.appx
+ResourcePack=C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\bin\Release\App1_1.1.0.3_scale-180.appx

@@ -1,0 +1,11 @@
+﻿[ResourceMetadata]
+"ResourceId"			"filemap.scale-140"
+"ResourceDimensions"		"scale-140"
+
+[Files]
+"C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\obj\Release\filemap.scale-140.pri"			"resources.pri"
+"C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\obj\Release\PackageLayout\Assets\Wide310x150Logo.scale-140.png"			"Assets\Wide310x150Logo.scale-140.png"
+"C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\obj\Release\PackageLayout\Assets\StoreLogo.scale-140.png"			"Assets\StoreLogo.scale-140.png"
+"C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\obj\Release\PackageLayout\Assets\Square70x70Logo.scale-140.png"			"Assets\Square70x70Logo.scale-140.png"
+"C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\obj\Release\PackageLayout\Assets\SmallLogo.scale-140.png"			"Assets\SmallLogo.scale-140.png"
+"C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\obj\Release\PackageLayout\Assets\Logo.scale-140.png"			"Assets\Logo.scale-140.png"

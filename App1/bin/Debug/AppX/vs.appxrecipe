@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>IISU-NB</Machine>
+    <WindowsUser>IISU</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>2895IISU.MediaCastScreen</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>47C4143C2A4D2D0E96EC2B2FAF0C874BC538A33993E72D80908DF6A710FDAF16</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>2895IISU.MediaCastScreen_1.1.0.0_neutral__9zhm551a5spgc</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>2895IISU.MediaCastScreen_9zhm551a5spgc!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>2895IISU.MediaCastScreen</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=AAC7BD39-E26F-449A-B235-F925696946F2</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-06T11:56:18.771</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\bin\Debug\App1.exe">
+      <PackagePath>App1.exe</PackagePath>
+      <Modified>2017-03-06T11:56:18.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <Modified>2017-03-05T09:52:47.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-05T09:34:51.966</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-05T09:34:09.599</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\Assets\Logo.scale-180.png">
+      <PackagePath>Assets\Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-05T09:32:53.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\Assets\Logo.scale-80.png">
+      <PackagePath>Assets\Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-05T09:35:11.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\Assets\Ready.png">
+      <PackagePath>Assets\Ready.png</PackagePath>
+      <Modified>2017-03-06T11:20:43.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\Assets\Player_pause.png">
+      <PackagePath>Assets\Player_pause.png</PackagePath>
+      <Modified>2017-03-05T16:07:32.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\Assets\Player_play.png">
+      <PackagePath>Assets\Player_play.png</PackagePath>
+      <Modified>2017-03-05T16:07:32.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\Assets\Player_stop.png">
+      <PackagePath>Assets\Player_stop.png</PackagePath>
+      <Modified>2017-03-05T16:35:41.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-05T09:48:41.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\Assets\splash-Windows-sdk.scale-100.png">
+      <PackagePath>Assets\splash-Windows-sdk.scale-100.png</PackagePath>
+      <Modified>2017-03-05T09:50:31.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-05T09:41:54.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-05T09:52:33.647</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-05T09:51:13.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-05T09:47:38.407</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\Assets\Start_video.mp4">
+      <PackagePath>Assets\Start_video.mp4</PackagePath>
+      <Modified>2017-03-06T05:26:56.196</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2017-03-06T11:54:53.490</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\bin\Debug\ExtendedSplash.xbf">
+      <PackagePath>ExtendedSplash.xbf</PackagePath>
+      <Modified>2017-03-06T11:56:18.187</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2017-03-06T11:56:18.188</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\bin\Debug\App1.xr.xml">
+      <PackagePath>App1.xr.xml</PackagePath>
+      <Modified>2017-03-06T11:42:26.485</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IISU\Documents\Visual Studio 2013\Projects\備份\App1\App1\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2017-03-06T11:56:18.635</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

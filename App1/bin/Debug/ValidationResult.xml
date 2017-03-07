@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
+<REPORT xml:lang="zh-TW" OVERALL_RESULT="PASS" VERSION="10.0.14393.33" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="WindowsStore" PUBLISHER_DISPLAY_NAME="CN=AAC7BD39-E26F-449A-B235-F925696946F2" OSVERSION="10.0.14393.0" OS="Microsoft Windows 10 家用版" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1028" VALIDATION_TYPE="UI" ReportGenerationTime="2017/3/6 下午 08:23:45" ID="c6f448e9c64934cbfb48889a408f15de">
+  <REQUIREMENTS>
+    <REQUIREMENT NUMBER="10" TITLE="部署和啟動測試" RATIONALE="當機和沒有反應之類的應用程式故障是對使用者的主要干擾，並會導致挫敗感。 消除此類故障會改進應用程式的穩定性和可靠性，整體來講，會為使用者提供更佳的應用程式體驗。">
+      <TEST INDEX="50" NAME="Bytecode 產生" DESCRIPTION="包含 HTML5 Windows 市集應用程式的封裝應可順利產生位元組碼。" EXECUTIONTIME="00h:00m:00s.95ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="47" NAME="應用程式啟動" DESCRIPTION="應用程式啟動測試。" EXECUTIONTIME="00h:00m:50s.93ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="60" NAME="最佳化的繫結參照" DESCRIPTION="使用繫結時，WinJS.Binding.optimizeBindingReferences 應設定為 true 以最佳化記憶體使用量。" EXECUTIONTIME="00h:00m:00s.94ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="21" NAME="當機和無回應" DESCRIPTION="不要在測試過程中當機或沒有反應。" EXECUTIONTIME="00h:00m:04s.77ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="12" TITLE="套件規範測試" RATIONALE="封裝資訊清單遺失一或多個必需的屬性。">
+      <TEST INDEX="77" NAME="應用程式數目" DESCRIPTION="一個套件在資訊清單中不應定義超過一個應用程式。" EXECUTIONTIME="00h:00m:00s.92ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="31" NAME="應用程式資訊清單" DESCRIPTION="應用程式資訊清單的所有必填欄位都必須包含有效項目。" EXECUTIONTIME="00h:00m:00s.99ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="75" NAME="套件大小" DESCRIPTION="套件檔案大小不應大於 4GB。" EXECUTIONTIME="00h:00m:01s.22ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="14" TITLE="Windows 安全性功能測試" RATIONALE="應用程式必須選擇加入 Windows 安全性功能。">
+      <TEST INDEX="33" NAME="二元分析器" DESCRIPTION="對二進位檔上啟用的安全性功能的分析" EXECUTIONTIME="00h:00m:01s.67ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="70" NAME="禁止的檔案分析器" DESCRIPTION="用以偵測已知不安全檔案之應用程式的分析" EXECUTIONTIME="00h:00m:01s.01ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="62" NAME="私用程式碼簽署" DESCRIPTION="應用程式不應封裝私用程式碼簽署金鑰檔案。" EXECUTIONTIME="00h:00m:00s.91ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="15" TITLE="支援的 API 測試" RATIONALE="應用程式應只參照用於 Windows 市集應用程式的 Windows SDK 所允許的 API。">
+      <TEST INDEX="38" NAME="支援的 API" DESCRIPTION="Windows 市集應用程式必須僅使用支援的平台 API。" EXECUTIONTIME="00h:00m:02s.60ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="19" TITLE="應用程式資訊清單資源測試" RATIONALE="依據應用程式封裝規格與應用程式資訊清單結構描述，應用程式套件資訊清單應具有 resources.pri 檔案中定義的有效資源。">
+      <TEST INDEX="45" NAME="應用程式資源" DESCRIPTION="封裝應具有 resources.pri 檔案中定義的有效資源。" EXECUTIONTIME="00h:00m:00s.75ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="61" NAME="品牌" DESCRIPTION="應用程式不應使用 Windows SDK 範例或 Visual Studio 封裝的預設影像。" EXECUTIONTIME="00h:00m:01s.59ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="20" TITLE="偵錯組態測試" RATIONALE="應用程式不應安裝任何偵錯二進位檔。">
+      <TEST INDEX="46" NAME="偵錯組態" DESCRIPTION="應用程式不應安裝任何偵錯二進位檔。" EXECUTIONTIME="00h:00m:01s.25ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="21" TITLE="檔案編碼測試" RATIONALE="包含 HTML5 Windows 市集應用程式的封裝必須有正確的檔案編碼。">
+      <TEST INDEX="49" NAME="UTF-8 檔案編碼" DESCRIPTION="包含 HTML5 Windows 市集應用程式的封裝必須有正確的檔案編碼。" EXECUTIONTIME="00h:00m:01s.01ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="23" TITLE="應用程式功能測試" RATIONALE="套件宣告特殊用途功能將在加入程序期間提供證明。">
+      <TEST INDEX="52" NAME="特殊用途功能" DESCRIPTION="套件宣告特殊用途功能將在加入程序期間提供證明。" EXECUTIONTIME="00h:00m:00s.98ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="24" TITLE="Windows 執行階段中繼資料驗證" RATIONALE="所有產生來源中的中繼資料需要符合標準並保持一致。">
+      <TEST INDEX="56" NAME="ExclusiveTo 屬性" DESCRIPTION="類別不得實作標記 ExclusiveTo 其他類別的介面。" EXECUTIONTIME="00h:00m:01s.83ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="57" NAME="類型位置" DESCRIPTION="必須在具有最長相符命名空間的中繼資料檔案中定義類型。" EXECUTIONTIME="00h:00m:00s.68ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="55" NAME="類型名稱區分大小寫" DESCRIPTION="命名空間與類型名稱不得僅限依大小寫而有所不同。" EXECUTIONTIME="00h:00m:00s.64ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="54" NAME="類型名稱正確性" DESCRIPTION="Windows 命名空間中僅限存在系統類型，全域命名空間中不可存在任何類型。" EXECUTIONTIME="00h:00m:00s.64ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="58" NAME="一般中繼資料正確性" DESCRIPTION="為了確保有效性與正確性，中繼資料必須符合各種需求。" EXECUTIONTIME="00h:00m:01s.74ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="53" NAME="屬性" DESCRIPTION="可能無法使用唯寫和索引子屬性。對應的 getter 和 setter 方法必須在類型上相符。" EXECUTIONTIME="00h:00m:00s.62ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="25" TITLE="套件例行性測試" RATIONALE="驗證應用程式套件內容以確保正確性。">
+      <TEST INDEX="63" NAME="平台適用檔案" DESCRIPTION="應用程式不應該安裝不符合目標處理器架構的檔案。" EXECUTIONTIME="00h:00m:01s.07ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="66" NAME="支援的目錄結構檢查" DESCRIPTION="檢查套件中的每個檔案，確定其檔案名稱長度都未超過 MAX_PATH。" EXECUTIONTIME="00h:00m:02s.92ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="27" TITLE="資源使用狀況測試" RATIONALE="WinJS 背景工作必須呼叫 close() 以釋放資源。">
+      <TEST INDEX="68" NAME="WinJS 背景工作" DESCRIPTION="WinJS 背景工作必須呼叫 close() 以釋放資源。" EXECUTIONTIME="00h:00m:01s.32ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+  </REQUIREMENTS>
+  <APPLICATIONS>
+    <Installed_Programs>
+      <Program Name="2895IISU.MediaCastScreen" Type="Application" Source="AppxPackage" Publisher="CN=AAC7BD39-E26F-449A-B235-F925696946F2" Version="1.1.0.2" Language="1033" InstallDate="03/06/2017 12:22:15" OSVersionAtInstallTime="10.0.0.14393" RootDirPath="c:\program files\windowsapps\2895iisu.mediacastscreen_1.1.0.2_neutral__9zhm551a5spgc" Id="0000db82877973f5579ac842c7f2cbe233c000000904">
+        <Indicators>
+          <WindowsStoreAppManifestIndicators>
+            <PackageManifest PackageFullName="2895IISU.MediaCastScreen_1.1.0.2_neutral__9zhm551a5spgc">
+              <Package>
+                <Identity Name="2895IISU.MediaCastScreen" Publisher="CN=AAC7BD39-E26F-449A-B235-F925696946F2" Version="1.1.0.2" ProcessorArchitecture="neutral" />
+                <Properties>
+                  <DisplayName>Media Cast Screen</DisplayName>
+                  <PublisherDisplayName>IISU</PublisherDisplayName>
+                  <Logo>Assets\StoreLogo.png</Logo>
+                </Properties>
+                <Prerequisites>
+                  <OSMinVersion>6.3.0</OSMinVersion>
+                  <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+                </Prerequisites>
+                <Resources>
+                  <Resource Language="ZH-TW" />
+                  <Resource Scale="100" />
+                </Resources>
+                <Applications>
+                  <Application Id="App" Executable="App1.exe" EntryPoint="App1.App">
+                    <VisualElements DisplayName="Media Cast Screen" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png" Description="這是一個網路媒體播放器，可透過PlayTo來接收同一個區域網路下的媒體。" ForegroundText="light" BackgroundColor="#000000">
+                      <DefaultTile Square310x310Logo="Assets\Square310x310Logo.png" Wide310x150Logo="Assets\Wide310x150Logo.png" Square70x70Logo="Assets\Square70x70Logo.png" />
+                      <SplashScreen Image="Assets\splash-Windows-sdk.png" BackgroundColor="#000000" />
+                    </VisualElements>
+                    <Extensions>
+                      <Extension Category="windows.backgroundTasks" EntryPoint="App1.App">
+                        <BackgroundTasks>
+                          <Task Type="audio" />
+                        </BackgroundTasks>
+                      </Extension>
+                    </Extensions>
+                  </Application>
+                </Applications>
+                <Capabilities>
+                  <Capability Name="privateNetworkClientServer" />
+                </Capabilities>
+              </Package>
+            </PackageManifest>
+            <BundleManifest PackageFamilyName="2895IISU.MediaCastScreen_9zhm551a5spgc">
+              <Bundle SchemaVersion="2.0">
+                <Identity Name="2895IISU.MediaCastScreen" Publisher="CN=AAC7BD39-E26F-449A-B235-F925696946F2" Version="2017.306.1221.0" />
+                <Packages>
+                  <Package Type="application" Version="1.1.0.2" Architecture="neutral" FileName="App1_1.1.0.2_AnyCPU.appx" Offset="54" Size="1564083">
+                    <Resources>
+                      <Resource Language="ZH-TW" />
+                      <Resource Scale="100" />
+                    </Resources>
+                  </Package>
+                  <Package Type="resource" Version="1.1.0.2" ResourceId="split.scale-140" FileName="App1_1.1.0.2_scale-140.appx" Offset="1564218" Size="38287">
+                    <Resources>
+                      <Resource Scale="140" />
+                    </Resources>
+                  </Package>
+                  <Package Type="resource" Version="1.1.0.2" ResourceId="split.scale-180" FileName="App1_1.1.0.2_scale-180.appx" Offset="1602586" Size="43167">
+                    <Resources>
+                      <Resource Scale="180" />
+                    </Resources>
+                  </Package>
+                </Packages>
+              </Bundle>
+            </BundleManifest>
+          </WindowsStoreAppManifestIndicators>
+        </Indicators>
+        <StaticProperties>
+          <Files Id="0000da39a3ee5e6b4b0d3255bfef95601890afd80709" />
+        </StaticProperties>
+      </Program>
+    </Installed_Programs>
+  </APPLICATIONS>
+  <DEPENDENCY_INFORMATION>
+    <AitStaticAnalysis ProgramId="0000db82877973f5579ac842c7f2cbe233c000000904" AnalysisVersion="1.60" DictionaryVersion="3.1" Type="Package" Id="2895IISU.MediaCastScreen_1.1.0.2_neutral__9zhm551a5spgc">
+      <AitFile ErrorCode="0" Name="App1.exe" Id="0000676a6cbcb86ce7dd8e94a169bb7d1432f6fb3ca9">
+        <AitCategory Id="ApiStatic">
+          <AitFeature Name="mscoree.dll!_CorExeMain" />
+        </AitCategory>
+        <AitCategory Id="DotNet">
+          <AitFeature Name="System.Action`1" />
+          <AitFeature Name="System.ArgumentException" />
+          <AitFeature Name="System.ArgumentException..ctor" />
+          <AitFeature Name="System.AsyncCallback" />
+          <AitFeature Name="System.Char" />
+          <AitFeature Name="System.CodeDom.Compiler.GeneratedCodeAttribute" />
+          <AitFeature Name="System.CodeDom.Compiler.GeneratedCodeAttribute..ctor" />
+          <AitFeature Name="System.Collections.Generic.Dictionary`2" />
+          <AitFeature Name="System.Collections.Generic.IEnumerable`1" />
+          <AitFeature Name="System.Collections.Generic.IReadOnlyList`1" />
+          <AitFeature Name="System.Collections.Generic.List`1" />
+          <AitFeature Name="System.Convert" />
+          <AitFeature Name="System.Convert.ToInt32" />
+          <AitFeature Name="System.Diagnostics.DebuggableAttribute" />
+          <AitFeature Name="System.Diagnostics.DebuggableAttribute..ctor" />
+          <AitFeature Name="System.Diagnostics.DebuggerHiddenAttribute" />
+          <AitFeature Name="System.Diagnostics.DebuggerHiddenAttribute..ctor" />
+          <AitFeature Name="System.Diagnostics.DebuggerNonUserCodeAttribute" />
+          <AitFeature Name="System.Diagnostics.DebuggerNonUserCodeAttribute..ctor" />
+          <AitFeature Name="System.Diagnostics.DebuggerStepThroughAttribute" />
+          <AitFeature Name="System.Diagnostics.DebuggerStepThroughAttribute..ctor" />
+          <AitFeature Name="System.Double" />
+          <AitFeature Name="System.Enum" />
+          <AitFeature Name="System.EventHandler`1" />
+          <AitFeature Name="System.Exception" />
+          <AitFeature Name="System.Exception..ctor" />
+          <AitFeature Name="System.Exception.get_Message" />
+          <AitFeature Name="System.FormatException" />
+          <AitFeature Name="System.Func`2" />
+          <AitFeature Name="System.IAsyncResult" />
+          <AitFeature Name="System.IDisposable" />
+          <AitFeature Name="System.IDisposable.Dispose" />
+          <AitFeature Name="System.IO.MemoryStream" />
+          <AitFeature Name="System.IO.MemoryStream..ctor" />
+          <AitFeature Name="System.IO.SeekOrigin" />
+          <AitFeature Name="System.IO.Stream" />
+          <AitFeature Name="System.IO.Stream.CopyToAsync" />
+          <AitFeature Name="System.IO.Stream.Seek" />
+          <AitFeature Name="System.IO.WindowsRuntimeStorageExtensions" />
+          <AitFeature Name="System.IO.WindowsRuntimeStorageExtensions.OpenStreamForWriteAsync" />
+          <AitFeature Name="System.IO.WindowsRuntimeStreamExtensions" />
+          <AitFeature Name="System.IO.WindowsRuntimeStreamExtensions.AsStreamForRead" />
+          <AitFeature Name="System.Int32" />
+          <AitFeature Name="System.InvalidOperationException" />
+          <AitFeature Name="System.InvalidOperationException..ctor" />
+          <AitFeature Name="System.Linq.Enumerable" />
+          <AitFeature Name="System.Linq.Enumerable.FirstOrDefault" />
+          <AitFeature Name="System.Math" />
+          <AitFeature Name="System.Math.Round" />
+          <AitFeature Name="System.MidpointRounding" />
+          <AitFeature Name="System.MulticastDelegate" />
+          <AitFeature Name="System.NotImplementedException" />
+          <AitFeature Name="System.NotImplementedException..ctor" />
+          <AitFeature Name="System.Object" />
+          <AitFeature Name="System.Object..ctor" />
+          <AitFeature Name="System.Predicate`1" />
+          <AitFeature Name="System.Reflection.AssemblyCompanyAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyCompanyAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyConfigurationAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyConfigurationAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyCopyrightAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyCopyrightAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyCultureAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyCultureAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyDescriptionAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyDescriptionAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyFileVersionAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyFileVersionAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyProductAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyProductAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyTitleAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyTitleAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyTrademarkAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyTrademarkAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyVersionAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyVersionAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncStateMachineAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncStateMachineAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncTaskMethodBuilder" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Create" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetException" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetStateMachine" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncTaskMethodBuilder.get_Task" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.AwaitUnsafeOnCompleted" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Create" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.SetException" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.SetResult" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.SetStateMachine" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilationRelaxationsAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilationRelaxationsAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilerGeneratedAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilerGeneratedAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.IAsyncStateMachine" />
+          <AitFeature Name="System.Runtime.CompilerServices.IAsyncStateMachine.MoveNext" />
+          <AitFeature Name="System.Runtime.CompilerServices.IAsyncStateMachine.SetStateMachine" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeCompatibilityAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeCompatibilityAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeHelpers" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor" />
+          <AitFeature Name="System.Runtime.CompilerServices.TaskAwaiter" />
+          <AitFeature Name="System.Runtime.CompilerServices.TaskAwaiter.GetResult" />
+          <AitFeature Name="System.Runtime.CompilerServices.TaskAwaiter.get_IsCompleted" />
+          <AitFeature Name="System.Runtime.CompilerServices.TaskAwaiter`1" />
+          <AitFeature Name="System.Runtime.InteropServices.ComVisibleAttribute" />
+          <AitFeature Name="System.Runtime.InteropServices.ComVisibleAttribute..ctor" />
+          <AitFeature Name="System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken" />
+          <AitFeature Name="System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal" />
+          <AitFeature Name="System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal.AddEventHandler" />
+          <AitFeature Name="System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal.RemoveEventHandler" />
+          <AitFeature Name="System.Runtime.Serialization.DataContractSerializer" />
+          <AitFeature Name="System.Runtime.Serialization.DataContractSerializer..ctor" />
+          <AitFeature Name="System.Runtime.Serialization.XmlObjectSerializer" />
+          <AitFeature Name="System.Runtime.Serialization.XmlObjectSerializer.ReadObject" />
+          <AitFeature Name="System.Runtime.Serialization.XmlObjectSerializer.WriteObject" />
+          <AitFeature Name="System.Runtime.Versioning.TargetFrameworkAttribute" />
+          <AitFeature Name="System.Runtime.Versioning.TargetFrameworkAttribute..ctor" />
+          <AitFeature Name="System.RuntimeTypeHandle" />
+          <AitFeature Name="System.String" />
+          <AitFeature Name="System.String.Compare" />
+          <AitFeature Name="System.String.CompareOrdinal" />
+          <AitFeature Name="System.String.Concat" />
+          <AitFeature Name="System.String.Contains" />
+          <AitFeature Name="System.String.IsNullOrEmpty" />
+          <AitFeature Name="System.String.Replace" />
+          <AitFeature Name="System.String.Split" />
+          <AitFeature Name="System.String.Trim" />
+          <AitFeature Name="System.String.op_Equality" />
+          <AitFeature Name="System.StringComparison" />
+          <AitFeature Name="System.Threading.Tasks.Task" />
+          <AitFeature Name="System.Threading.Tasks.Task.GetAwaiter" />
+          <AitFeature Name="System.Threading.Tasks.Task`1" />
+          <AitFeature Name="System.TimeSpan" />
+          <AitFeature Name="System.TimeSpan..ctor" />
+          <AitFeature Name="System.TimeSpan.FromSeconds" />
+          <AitFeature Name="System.TimeSpan.get_TotalHours" />
+          <AitFeature Name="System.TimeSpan.get_TotalMinutes" />
+          <AitFeature Name="System.TimeSpan.get_TotalSeconds" />
+          <AitFeature Name="System.Type" />
+          <AitFeature Name="System.Type.GetTypeFromHandle" />
+          <AitFeature Name="System.Type.get_FullName" />
+          <AitFeature Name="System.Type.get_TypeHandle" />
+          <AitFeature Name="System.Uri" />
+          <AitFeature Name="System.Uri..ctor" />
+          <AitFeature Name="System.ValueType" />
+          <AitFeature Name="System.WeakReference`1" />
+          <AitFeature Name="System.WindowsRuntimeSystemExtensions" />
+          <AitFeature Name="System.WindowsRuntimeSystemExtensions.GetAwaiter" />
+        </AitCategory>
+        <AitCategory Id="DotNetWinRt">
+          <AitFeature Name="Windows.ApplicationModel.Activation.ApplicationExecutionState" />
+          <AitFeature Name="Windows.ApplicationModel.Activation.LaunchActivatedEventArgs" />
+          <AitFeature Name="Windows.ApplicationModel.Activation.LaunchActivatedEventArgs.get_PreviousExecutionState" />
+          <AitFeature Name="Windows.ApplicationModel.Activation.LaunchActivatedEventArgs.get_SplashScreen" />
+          <AitFeature Name="Windows.ApplicationModel.Activation.SplashScreen" />
+          <AitFeature Name="Windows.ApplicationModel.Activation.SplashScreen.add_Dismissed" />
+          <AitFeature Name="Windows.ApplicationModel.Activation.SplashScreen.get_ImageLocation" />
+          <AitFeature Name="Windows.ApplicationModel.Activation.SplashScreen.remove_Dismissed" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingDeferral" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingDeferral.Complete" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingEventArgs" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingEventArgs.get_SuspendingOperation" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingOperation" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingOperation.GetDeferral" />
+          <AitFeature Name="Windows.Foundation.IAsyncAction" />
+          <AitFeature Name="Windows.Foundation.IAsyncOperation`1" />
+          <AitFeature Name="Windows.Foundation.Point" />
+          <AitFeature Name="Windows.Foundation.Point..ctor" />
+          <AitFeature Name="Windows.Foundation.Point.get_X" />
+          <AitFeature Name="Windows.Foundation.Point.get_Y" />
+          <AitFeature Name="Windows.Foundation.Rect" />
+          <AitFeature Name="Windows.Foundation.Rect.get_Height" />
+          <AitFeature Name="Windows.Foundation.Rect.get_Width" />
+          <AitFeature Name="Windows.Foundation.Rect.get_X" />
+          <AitFeature Name="Windows.Foundation.Rect.get_Y" />
+          <AitFeature Name="Windows.Foundation.TypedEventHandler`2" />
+          <AitFeature Name="Windows.Media.MediaPlaybackStatus" />
+          <AitFeature Name="Windows.Media.PlayTo.CurrentTimeChangeRequestedEventArgs" />
+          <AitFeature Name="Windows.Media.PlayTo.CurrentTimeChangeRequestedEventArgs.get_Time" />
+          <AitFeature Name="Windows.Media.PlayTo.MuteChangeRequestedEventArgs" />
+          <AitFeature Name="Windows.Media.PlayTo.MuteChangeRequestedEventArgs.get_Mute" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver..ctor" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.NotifyDurationChange" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.NotifyEnded" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.NotifyError" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.NotifyLoadedMetadata" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.NotifyPaused" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.NotifyPlaying" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.NotifyRateChange" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.NotifySeeked" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.NotifySeeking" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.NotifyStopped" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.NotifyTimeUpdate" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.NotifyVolumeChange" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.StartAsync" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.StopAsync" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.add_CurrentTimeChangeRequested" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.add_MuteChangeRequested" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.add_PauseRequested" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.add_PlayRequested" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.add_PlaybackRateChangeRequested" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.add_SourceChangeRequested" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.add_StopRequested" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.add_TimeUpdateRequested" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.add_VolumeChangeRequested" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.put_FriendlyName" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.put_SupportsAudio" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.put_SupportsImage" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.put_SupportsVideo" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.remove_CurrentTimeChangeRequested" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.remove_MuteChangeRequested" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.remove_PauseRequested" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.remove_PlayRequested" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.remove_PlaybackRateChangeRequested" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.remove_SourceChangeRequested" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.remove_StopRequested" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.remove_TimeUpdateRequested" />
+          <AitFeature Name="Windows.Media.PlayTo.PlayToReceiver.remove_VolumeChangeRequested" />
+          <AitFeature Name="Windows.Media.PlayTo.PlaybackRateChangeRequestedEventArgs" />
+          <AitFeature Name="Windows.Media.PlayTo.PlaybackRateChangeRequestedEventArgs.get_Rate" />
+          <AitFeature Name="Windows.Media.PlayTo.SourceChangeRequestedEventArgs" />
+          <AitFeature Name="Windows.Media.PlayTo.SourceChangeRequestedEventArgs.get_Stream" />
+          <AitFeature Name="Windows.Media.PlayTo.VolumeChangeRequestedEventArgs" />
+          <AitFeature Name="Windows.Media.PlayTo.VolumeChangeRequestedEventArgs.get_Volume" />
+          <AitFeature Name="Windows.Media.SystemMediaTransportControls" />
+          <AitFeature Name="Windows.Media.SystemMediaTransportControls.GetForCurrentView" />
+          <AitFeature Name="Windows.Media.SystemMediaTransportControls.put_IsPauseEnabled" />
+          <AitFeature Name="Windows.Media.SystemMediaTransportControls.put_IsPlayEnabled" />
+          <AitFeature Name="Windows.Media.SystemMediaTransportControls.put_IsStopEnabled" />
+          <AitFeature Name="Windows.Media.SystemMediaTransportControls.put_PlaybackStatus" />
+          <AitFeature Name="Windows.Networking.Connectivity.NetworkInformation" />
+          <AitFeature Name="Windows.Networking.Connectivity.NetworkInformation.GetHostNames" />
+          <AitFeature Name="Windows.Networking.HostName" />
+          <AitFeature Name="Windows.Networking.HostName.get_DisplayName" />
+          <AitFeature Name="Windows.Storage.ApplicationData" />
+          <AitFeature Name="Windows.Storage.ApplicationData.get_Current" />
+          <AitFeature Name="Windows.Storage.ApplicationData.get_LocalFolder" />
+          <AitFeature Name="Windows.Storage.CreationCollisionOption" />
+          <AitFeature Name="Windows.Storage.IStorageFile" />
+          <AitFeature Name="Windows.Storage.StorageFile" />
+          <AitFeature Name="Windows.Storage.StorageFile.OpenSequentialReadAsync" />
+          <AitFeature Name="Windows.Storage.StorageFolder" />
+          <AitFeature Name="Windows.Storage.StorageFolder.CreateFileAsync" />
+          <AitFeature Name="Windows.Storage.StorageFolder.GetFileAsync" />
+          <AitFeature Name="Windows.Storage.Streams.IContentTypeProvider" />
+          <AitFeature Name="Windows.Storage.Streams.IContentTypeProvider.get_ContentType" />
+          <AitFeature Name="Windows.Storage.Streams.IInputStream" />
+          <AitFeature Name="Windows.Storage.Streams.IRandomAccessStream" />
+          <AitFeature Name="Windows.Storage.Streams.IRandomAccessStreamWithContentType" />
+          <AitFeature Name="Windows.UI.Core.CoreDispatcher" />
+          <AitFeature Name="Windows.UI.Core.CoreDispatcher.RunAsync" />
+          <AitFeature Name="Windows.UI.Core.CoreDispatcherPriority" />
+          <AitFeature Name="Windows.UI.Core.DispatchedHandler" />
+          <AitFeature Name="Windows.UI.Core.DispatchedHandler..ctor" />
+          <AitFeature Name="Windows.UI.Core.WindowSizeChangedEventArgs" />
+          <AitFeature Name="Windows.UI.Xaml.Application" />
+          <AitFeature Name="Windows.UI.Xaml.Application..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.Application.LoadComponent" />
+          <AitFeature Name="Windows.UI.Xaml.Application.Start" />
+          <AitFeature Name="Windows.UI.Xaml.Application.add_Suspending" />
+          <AitFeature Name="Windows.UI.Xaml.Application.remove_Suspending" />
+          <AitFeature Name="Windows.UI.Xaml.ApplicationInitializationCallback" />
+          <AitFeature Name="Windows.UI.Xaml.ApplicationInitializationCallback..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.ApplicationInitializationCallbackParams" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Button" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Canvas" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Canvas.get_LeftProperty" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Canvas.get_TopProperty" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Frame" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Frame..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Frame.GetNavigationState" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Frame.Navigate" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Frame.SetNavigationState" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Grid" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Image" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Image.put_Source" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.Pause" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.Play" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.SetSource" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.Stop" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.add_CurrentStateChanged" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.add_DownloadProgressChanged" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.add_MediaEnded" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.add_MediaFailed" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.add_MediaOpened" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.add_RateChanged" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.add_SeekCompleted" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.add_VolumeChanged" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.get_CanSeek" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.get_CurrentState" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.get_DownloadProgress" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.get_IsMuted" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.get_NaturalDuration" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.get_PlaybackRate" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.get_Position" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.get_Volume" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.put_IsFullWindow" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.put_IsMuted" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.put_PlaybackRate" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.put_Position" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.put_Volume" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.remove_CurrentStateChanged" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.remove_DownloadProgressChanged" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.remove_MediaEnded" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.remove_MediaFailed" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.remove_MediaOpened" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.remove_RateChanged" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.remove_SeekCompleted" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.MediaElement.remove_VolumeChanged" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Page" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Page..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.ButtonBase" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.ButtonBase.add_Click" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.ButtonBase.remove_Click" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.ComponentResourceLocation" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.Popup" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.Popup.get_IsOpen" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.Popup.put_HorizontalOffset" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.Popup.put_IsOpen" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.Popup.put_VerticalOffset" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.RangeBase" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.RangeBase.get_Value" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.RangeBase.put_Maximum" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.RangeBase.put_Value" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.ProgressRing" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Slider" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Slider.get_StepFrequency" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Slider.put_StepFrequency" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.TextBlock" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.TextBlock.put_Text" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.UserControl" />
+          <AitFeature Name="Windows.UI.Xaml.DependencyObject" />
+          <AitFeature Name="Windows.UI.Xaml.DependencyObject.ClearValue" />
+          <AitFeature Name="Windows.UI.Xaml.DependencyObject.GetValue" />
+          <AitFeature Name="Windows.UI.Xaml.DependencyObject.SetValue" />
+          <AitFeature Name="Windows.UI.Xaml.DependencyObject.get_Dispatcher" />
+          <AitFeature Name="Windows.UI.Xaml.DependencyProperty" />
+          <AitFeature Name="Windows.UI.Xaml.DependencyProperty.RegisterAttached" />
+          <AitFeature Name="Windows.UI.Xaml.DispatcherTimer" />
+          <AitFeature Name="Windows.UI.Xaml.DispatcherTimer..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.DispatcherTimer.Start" />
+          <AitFeature Name="Windows.UI.Xaml.DispatcherTimer.Stop" />
+          <AitFeature Name="Windows.UI.Xaml.DispatcherTimer.add_Tick" />
+          <AitFeature Name="Windows.UI.Xaml.DispatcherTimer.get_IsEnabled" />
+          <AitFeature Name="Windows.UI.Xaml.DispatcherTimer.put_Interval" />
+          <AitFeature Name="Windows.UI.Xaml.DispatcherTimer.remove_Tick" />
+          <AitFeature Name="Windows.UI.Xaml.Duration" />
+          <AitFeature Name="Windows.UI.Xaml.Duration.get_TimeSpan" />
+          <AitFeature Name="Windows.UI.Xaml.ExceptionRoutedEventArgs" />
+          <AitFeature Name="Windows.UI.Xaml.ExceptionRoutedEventHandler" />
+          <AitFeature Name="Windows.UI.Xaml.ExceptionRoutedEventHandler..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.FrameworkElement" />
+          <AitFeature Name="Windows.UI.Xaml.FrameworkElement.FindName" />
+          <AitFeature Name="Windows.UI.Xaml.FrameworkElement.add_SizeChanged" />
+          <AitFeature Name="Windows.UI.Xaml.FrameworkElement.get_ActualHeight" />
+          <AitFeature Name="Windows.UI.Xaml.FrameworkElement.get_ActualWidth" />
+          <AitFeature Name="Windows.UI.Xaml.FrameworkElement.get_Height" />
+          <AitFeature Name="Windows.UI.Xaml.FrameworkElement.get_Width" />
+          <AitFeature Name="Windows.UI.Xaml.FrameworkElement.put_Height" />
+          <AitFeature Name="Windows.UI.Xaml.FrameworkElement.put_Width" />
+          <AitFeature Name="Windows.UI.Xaml.FrameworkElement.remove_SizeChanged" />
+          <AitFeature Name="Windows.UI.Xaml.Input.DoubleTappedEventHandler" />
+          <AitFeature Name="Windows.UI.Xaml.Input.DoubleTappedEventHandler..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.Input.PointerEventHandler" />
+          <AitFeature Name="Windows.UI.Xaml.Input.PointerEventHandler..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.Input.PointerRoutedEventArgs" />
+          <AitFeature Name="Windows.UI.Xaml.Input.TappedEventHandler" />
+          <AitFeature Name="Windows.UI.Xaml.Input.TappedEventHandler..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.Input.TappedRoutedEventArgs" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IComponentConnector" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMetadataProvider" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_FullName" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_UnderlyingType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.XmlnsDefinition" />
+          <AitFeature Name="Windows.UI.Xaml.Media.GeneralTransform" />
+          <AitFeature Name="Windows.UI.Xaml.Media.GeneralTransform.TransformPoint" />
+          <AitFeature Name="Windows.UI.Xaml.Media.ImageSource" />
+          <AitFeature Name="Windows.UI.Xaml.Media.Imaging.BitmapImage" />
+          <AitFeature Name="Windows.UI.Xaml.Media.Imaging.BitmapImage..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.Media.Imaging.BitmapImage.add_ImageOpened" />
+          <AitFeature Name="Windows.UI.Xaml.Media.Imaging.BitmapImage.remove_ImageOpened" />
+          <AitFeature Name="Windows.UI.Xaml.Media.Imaging.BitmapSource" />
+          <AitFeature Name="Windows.UI.Xaml.Media.Imaging.BitmapSource.SetSource" />
+          <AitFeature Name="Windows.UI.Xaml.Media.MediaElementState" />
+          <AitFeature Name="Windows.UI.Xaml.Media.RateChangedRoutedEventArgs" />
+          <AitFeature Name="Windows.UI.Xaml.Media.RateChangedRoutedEventHandler" />
+          <AitFeature Name="Windows.UI.Xaml.Media.RateChangedRoutedEventHandler..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.NavigationFailedEventArgs" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.NavigationFailedEventArgs.get_SourcePageType" />
+          <AitFeature Name="Windows.UI.Xaml.PropertyMetadata" />
+          <AitFeature Name="Windows.UI.Xaml.RoutedEvent" />
+          <AitFeature Name="Windows.UI.Xaml.RoutedEventArgs" />
+          <AitFeature Name="Windows.UI.Xaml.RoutedEventHandler" />
+          <AitFeature Name="Windows.UI.Xaml.RoutedEventHandler..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.SizeChangedEventArgs" />
+          <AitFeature Name="Windows.UI.Xaml.SizeChangedEventHandler" />
+          <AitFeature Name="Windows.UI.Xaml.SizeChangedEventHandler..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.SuspendingEventHandler" />
+          <AitFeature Name="Windows.UI.Xaml.SuspendingEventHandler..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.UIElement" />
+          <AitFeature Name="Windows.UI.Xaml.UIElement.AddHandler" />
+          <AitFeature Name="Windows.UI.Xaml.UIElement.TransformToVisual" />
+          <AitFeature Name="Windows.UI.Xaml.UIElement.add_DoubleTapped" />
+          <AitFeature Name="Windows.UI.Xaml.UIElement.add_PointerMoved" />
+          <AitFeature Name="Windows.UI.Xaml.UIElement.add_Tapped" />
+          <AitFeature Name="Windows.UI.Xaml.UIElement.get_PointerPressedEvent" />
+          <AitFeature Name="Windows.UI.Xaml.UIElement.get_PointerReleasedEvent" />
+          <AitFeature Name="Windows.UI.Xaml.UIElement.put_Opacity" />
+          <AitFeature Name="Windows.UI.Xaml.UIElement.remove_DoubleTapped" />
+          <AitFeature Name="Windows.UI.Xaml.UIElement.remove_PointerMoved" />
+          <AitFeature Name="Windows.UI.Xaml.UIElement.remove_Tapped" />
+          <AitFeature Name="Windows.UI.Xaml.Window" />
+          <AitFeature Name="Windows.UI.Xaml.Window.Activate" />
+          <AitFeature Name="Windows.UI.Xaml.Window.add_SizeChanged" />
+          <AitFeature Name="Windows.UI.Xaml.Window.get_Content" />
+          <AitFeature Name="Windows.UI.Xaml.Window.get_Current" />
+          <AitFeature Name="Windows.UI.Xaml.Window.put_Content" />
+          <AitFeature Name="Windows.UI.Xaml.Window.remove_SizeChanged" />
+          <AitFeature Name="Windows.UI.Xaml.WindowSizeChangedEventHandler" />
+          <AitFeature Name="Windows.UI.Xaml.WindowSizeChangedEventHandler..ctor" />
+        </AitCategory>
+      </AitFile>
+    </AitStaticAnalysis>
+  </DEPENDENCY_INFORMATION>
+</REPORT>
